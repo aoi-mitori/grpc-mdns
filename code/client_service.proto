@@ -1,0 +1,1 @@
+syntax="proto3";package lightService;service Light{rpc turnOn(LightRequest)returns(LightReply){}rpc turnOff(LightRequest)returns(LightReply){}}message LightRequest{string time=1;}message LightReply{string message=1;}
